@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: declinecal
+Version: 0.1.0
+Summary: Calibrated confidence bounds for decline-curve production forecasts
+Requires-Python: >=3.10
+Requires-Dist: numpy
+Requires-Dist: scipy
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"

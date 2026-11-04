@@ -1,0 +1,15 @@
+[project]
+name = "declinecal"
+version = "0.1.0"
+description = "Calibrated confidence bounds for decline-curve production forecasts"
+requires-python = ">=3.10"
+dependencies = ["numpy", "scipy"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

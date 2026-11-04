@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/declinecal/__init__.py
+src/declinecal/arps.py
+src/declinecal/conformal.py
+src/declinecal/synthetic.py
+src/declinecal.egg-info/PKG-INFO
+src/declinecal.egg-info/SOURCES.txt
+src/declinecal.egg-info/dependency_links.txt
+src/declinecal.egg-info/requires.txt
+src/declinecal.egg-info/top_level.txt
+tests/test_declinecal.py
